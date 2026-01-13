@@ -3,35 +3,41 @@ body {
   background: black;
 }
 
-.page {
+.container {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
-.page img {
+.container img {
   width: 100%;
   display: block;
-  pointer-events: none;
 }
 
+/* Zones cliquables */
 .hotspot {
   position: absolute;
-  z-index: 10;
+  z-index: 9999;
+  cursor: pointer;
 }
 
 /* BOUTON ROUGE */
-.hotspot-live {
-  top: 45%;
-  left: 15%;
-  width: 32%;
+.live {
+  top: 46%;
+  left: 14%;
+  width: 33%;
   height: 9%;
 }
 
 /* BOUTON JAUNE */
-.hotspot-page {
-  top: 45%;
+.page {
+  top: 46%;
   left: 52%;
   width: 33%;
   height: 9%;
+}
+
+/* MODE DEBUG (TEMPORAIRE) */
+.hotspot {
+  background: rgba(255, 0, 0, 0.3);
 }
