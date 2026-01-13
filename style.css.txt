@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: black;
+}
+
+.page {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page img {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.hotspot {
+  position: absolute;
+  z-index: 10;
+}
+
+/* BOUTON ROUGE */
+.hotspot-live {
+  top: 45%;
+  left: 15%;
+  width: 32%;
+  height: 9%;
+}
+
+/* BOUTON JAUNE */
+.hotspot-page {
+  top: 45%;
+  left: 52%;
+  width: 33%;
+  height: 9%;
+}

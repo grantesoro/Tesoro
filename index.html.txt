@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gran Tesoro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <img src="background.jpg" alt="Gran Tesoro">
+
+    <a href="https://example.com/live" class="hotspot hotspot-live"></a>
+
+    <a href="https://example.com/page" class="hotspot hotspot-page"></a>
+
+  </div>
+
+</body>
+</html>
